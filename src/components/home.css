@@ -1,0 +1,17 @@
+.home button{
+    border: none;
+    font-size: 28px;
+    background-color: blue;
+    box-shadow: 3px 3px 8px black;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px black;
+    padding: 18px;
+    font-weight: bold;
+    color: silver;
+}
+
+.home button:focus{
+    outline: none;
+    border: 15px green;
+    background-color: pink;
+}

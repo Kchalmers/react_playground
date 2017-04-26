@@ -1,0 +1,18 @@
+.greeting-font{
+    font-size: 36px;
+    font-family: "Comic Sans MS";
+}
+
+.title{
+    text-align: center;
+    /*animation: spin 10s linear infinite;*/
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
